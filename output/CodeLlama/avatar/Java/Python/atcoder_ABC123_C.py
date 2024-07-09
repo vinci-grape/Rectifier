@@ -1,0 +1,1 @@
+import sys ; import math ; N = int ( sys.stdin.readline ( ) ) ; min = 0 ; for i in range ( 5 ) : if i == 0 : min = int ( sys.stdin.readline ( ) ) ; else : min = min if min < int ( sys.stdin.readline ( ) ) else int ( sys.stdin.readline ( ) ) ; print ( math.ceil ( N / min ) + 4 )

@@ -1,0 +1,1 @@
+#include <bits/stdc++.h> using namespace std ; int main ( ) { long long A, B, K ; long long x, y ; cin >> A >> B >> K ; x = A ; y = B ; x = A - K ; if ( x < 0 ) { y = B + x ; x = 0 ; if ( y < 0 ) { y = 0 ; } } cout << x << " " << y << endl ; }

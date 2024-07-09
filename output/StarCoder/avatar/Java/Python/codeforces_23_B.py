@@ -1,0 +1,1 @@
+import java.util.Scanner ; public class codeforces_23_B { public static void main ( String [ ] args ) { Scanner scan = new Scanner ( System.in ) ; int t = scan.nextInt ( ) ; for ( int i = 0 ; i < t ; i ++ ) { int n = scan.nextInt ( ) ; System.out.println ( maxLeft ( n ) ) ; } } public static int maxLeft ( int n ) { return n > 2? n - 2 : 0 ; } }

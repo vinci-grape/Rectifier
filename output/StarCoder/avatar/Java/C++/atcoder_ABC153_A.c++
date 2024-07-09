@@ -1,0 +1,1 @@
+#include <bits/stdc++.h> using namespace std; int main() { string s; cin >> s; int h = stoi(s.substr(0, s.find(" "))); int a = stoi(s.substr(s.find(" ")+1)); int num = 0; for (int i = 1; h > 0; i++) { h -= a; num++; } cout << num << endl; }

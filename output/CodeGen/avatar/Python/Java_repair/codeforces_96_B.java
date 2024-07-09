@@ -1,0 +1,40 @@
+import java.util.*;
+
+public class codeforces_96_B {
+    public static void main(String[] args) {
+        int[] arr = new int[100000];
+        int[] arr2 = new int[100000];
+        int[] arr3 = new int[100000];
+        int[] arr4 = new int[100000];
+        int[] arr5 = new int[100000];
+        int[] arr6 = new int[100000];
+        int[] arr7 = new int[100000];
+        int[] arr8 = new int[100000];
+        int[] arr9 = new int[100000];
+        int[] arr10 = new int[100000];
+        int[] arr11 = new int[100000];
+        int[] arr12 = new int[100000];
+        int[] arr13 = new int[100000];
+        int[] arr14 = new int[100000];
+        int[] arr15 = new int[100000];
+        int[] arr16 = new int[100000];
+        int[] arr17 = new int[100000];
+        int[] arr18 = new int[100000];
+        int[] arr19 = new int[100000];
+        int[] arr20 = new int[100000];
+        int[] arr21 = new int[100000];
+        int[] arr22 = new int[100000];
+        int[] arr23 = new int[100000];
+        int[] arr24 = new int[100000];
+        int[] arr25 = new int[100000];
+        int[] arr26 = new int[100000];
+        int[] arr27 = new int[100000];
+        int[] arr28 = new int[100000];
+        int[] arr29 = new int[100000];
+        int[] arr30 = new int[100000];
+        int[] arr32 = new int[100000];
+        int[] arr33 = new int[100000];
+        int[] arr34 = new int[100000];
+        int[] arr35 = new int[100000];
+        int[] arr36 = new int[100000];
+        int[] arr37 = new int[100000];

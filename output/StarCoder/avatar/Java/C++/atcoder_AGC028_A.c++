@@ -1,0 +1,1 @@
+#include <bits/stdc++.h> using namespace std ; int main ( ) { int n, m ; cin >> n >> m ; string s, t ; cin >> s >> t ; int gcd = __gcd ( n, m ) ; cout << ( ( s.substr ( 0, gcd )!= t.substr ( 0, gcd ) )? -1 : ( n * m ) / gcd ) << endl ; }

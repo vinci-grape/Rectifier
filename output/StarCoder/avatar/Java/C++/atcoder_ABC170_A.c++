@@ -1,0 +1,1 @@
+#include <bits/stdc++.h> using namespace std ; int main ( ) { string [ ] input_array ; cin >> input_array ; int result = 0 ; for ( string str : input_array ) { result += 1 ; if ( "0".equals ( str ) ) break ; } cout << result << endl ; }

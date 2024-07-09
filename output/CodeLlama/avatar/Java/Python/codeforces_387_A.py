@@ -1,0 +1,1 @@
+import sys ; from datetime import datetime ; x = datetime.strptime ( sys.stdin.readline ( ) .strip ( ) , '%H:%M' ) ; y = datetime.strptime ( sys.stdin.readline ( ) .strip ( ) , '%H:%M' ) ; print ( x - y )

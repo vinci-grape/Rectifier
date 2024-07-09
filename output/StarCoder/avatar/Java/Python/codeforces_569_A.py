@@ -1,0 +1,1 @@
+import java.util.Scanner ; public class codeforces_569_A { public static void main ( String [ ] args ) { Scanner in = new Scanner ( System.in ) ; int T = in.nextInt ( ) ; int S = in.nextInt ( ) ; int q = in.nextInt ( ) ; long previous = S ; int answer = 0 ; while ( previous < T ) { answer ++ ; previous *= q ; } System.out.println ( answer ) ; } }

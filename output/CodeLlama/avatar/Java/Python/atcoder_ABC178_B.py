@@ -1,0 +1,1 @@
+import sys ; import math ; a = list ( map ( int , sys.stdin.readline ( ).split ( ) ) ) ; print ( max ( a [ 0 ] * a [ 2 ] , max ( a [ 1 ] * a [ 3 ] , max ( a [ 0 ] * a [ 3 ] , a [ 1 ] * a [ 2 ] ) ) ) )

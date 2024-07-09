@@ -1,0 +1,197 @@
+#include <iostream>
+#include <cstdlib>
+#include <cstdio>
+#include <cstring>
+#include <cmath>
+#include <algorithm>
+#include <cctype>
+#include <string>
+#include <vector>
+#include <queue>
+#include <map>
+#include <set>
+#include <deque>
+#include <stack>
+#include <list>
+#include <ctime>
+#include <memory.h>
+#include <functional>
+#include <bitset>
+#include <utility>
+#include <sstream>
+#include <iomanip>
+#include <new>
+using namespace std;
+#define mp make_pair
+#define pb push_back
+#define fi first
+#define se second
+#define REP(i,n) for(int i=0;i<(n);i++)
+#define REP1(i,n) for(int i=1;i<=(n);i++)
+#define FOR(i,a,b) for(int i=(a);i<=(b);i++)
+#define FORD(i,a,b) for(int i=(a);i>=(b);i--)
+#define ALL(A) (A).begin(), (A).end()
+#define REVALL(A) (A).rbegin(), (A).rend()
+#define COUNT(A) ((int)((A).size()))
+#define FILL(A,x) memset(A, x, sizeof A)
+#define X first
+#define Y second
+#define SZ(_a) ((int)_a.size())
+#define pb push_back
+#define IN input
+#define OUT output
+#define MAX 100
+#define EPS 1e-9
+#define INF 0x7fffffff
+#define MOD 1000000007
+#define PI acos(-1.0)
+#define MAX 100000000
+#define MAXN 1000000
+#define MAXL 1000000
+#define MINL -1000000
+#define MAXL 1000000
+#define MINL -1000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MINLL -1000000000000
+#define MAXLL 1000000000000
+#define MIN

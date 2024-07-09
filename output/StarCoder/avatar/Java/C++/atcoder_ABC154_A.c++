@@ -1,0 +1,1 @@
+#include <bits/stdc++.h> using namespace std ; int main ( ) { string [ ] str ; cin >> str [ 0 ] >> str [ 1 ] ; string u ; cin >> u ; cout << ( u.compare ( str [ 0 ] ) == 0? ( atoi ( str [ 1 ].c_str ( ) ) - 1 ) + " " + atoi ( str [ 2 ].c_str ( ) ) : atoi ( str [ 1 ].c_str ( ) ) + " " + ( atoi ( str [ 2 ].c_str ( ) ) - 1 ) ) << endl ; }

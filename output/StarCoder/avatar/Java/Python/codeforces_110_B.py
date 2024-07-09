@@ -1,0 +1,1 @@
+import java.util.* ; public class codeforces_110_B { public static void main ( String [ ] args ) { Scanner sc = new Scanner ( System.in ) ; int n, i, j, p = 97 ; n = sc.nextInt ( ) ; char c [ ] = new char [ n ] ; for ( i = 0 ; i < 4 ; i ++ ) { for ( j = i ; j < n ; j += 4 ) c [ j ] = ( char ) p ; p ++ ; } for ( i = 0 ; i < n ; i ++ ) System.out.print ( c [ i ] ) ; } }
